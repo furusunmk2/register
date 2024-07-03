@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+    background-color: black;
+}
+
+input[type="text"] {
+    margin: auto;
+    width: 88%;
+    padding: 10px;
+    font-size: 20px;
+    text-align: right;
+}
+
+
+input[type="submit"] {
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    background-color: #8f8c8c;
+    border-radius: 10px;
+    color: #ffffff;
+    
+}
+input[type="submit"]:active{
+    background-color: #ecb324;
+
+}
+
+input[class="1st"]{
+    width: 100px;
+    height: 50px;
+}
+
+input[value="="]{
+    width: 50px;
+    height: 100px;
+}
+#highlight{
+    background-color: #ecb324;
+}
+#lowlight{
+    background-color: #454545;
+}
+
+td {
+    border: 1px solid #000000;
+    text-align: center;
+}
